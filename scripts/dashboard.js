@@ -23,7 +23,7 @@ function logout() {
     document.getElementById("date").textContent = `${day}, ${date} ${month} ${year}`;
   }
   
-  // เรียกใช้ updateClock ทุก 1 วินาที
+  // เรียกใช้ updateClock ทุก 1 วินาที // test
   setInterval(updateClock, 1000);
   updateClock();
   
